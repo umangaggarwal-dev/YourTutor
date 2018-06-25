@@ -13,6 +13,7 @@ class Student(models.Model):
         Progress, 
         on_delete=models.CASCADE
     )
+    school = models.CharField(max_length = 100)
 
 class Teacher(models.Model):
     firstName = models.CharField(max_length=50)
