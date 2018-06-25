@@ -1,6 +1,27 @@
-# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 from django.db import models
 
-# Create your models here.
+class Progress(models.Model):
+    #Everything we need to model the learning progress
+    pass
+
+class Student(models.Model):
+    firstName = models.CharField(max_length = 50)
+    lastName = models.CharField(max_length = 50)
+    email = models.EmailField()
+    progress = models.OneToOneField(
+        Progress, 
+        on_delete=models.CASCADE
+    )
+
+class Teacher(models.Model):
+    firstName = models.CharField(max_length=50)
+    lastName = models.CharField(max_length=50)
+    email = models.EmailField()
+
+class Course(models.Model):
+    pass
+
+class Topic(models.Model):
+    pass
+
