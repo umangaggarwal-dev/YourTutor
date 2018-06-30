@@ -1,8 +1,9 @@
 from django import forms
-from .models import *
+from .models import Student
+from django.contrib.auth.models import User
 
-"""class SignupForm(forms.Form):
-    firstName = forms.CharField(max_length = 50, required=True, widget=forms.TextInput)
-    lastName = forms.CharField(max_length = 50)
-    email = forms.CharField
-"""
+class UserForm(forms.ModelForm):
+    password=forms.CharField(widget=forms.PasswordInput())
+    class Meta():
+        model=User
+        fields=['username','email','password']

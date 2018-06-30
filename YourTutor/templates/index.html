@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Your Tutor - Apka apna guru!</title>
-	{% load static %}
-	<link rel="stylesheet" type="text/css" href="{% static 'coglearn/css/index.css' %}">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
-</head>
-<body>
-	<div class="login-page">
-		<div class="form">
-			<form class="register-form" action="">
-				<input type="text" placeholder="first name" />
-				<input type="text" placeholder="last name" />
-				<input type="text" placeholder="school" />
-				<input type="text" placeholder="email address" />
-				<input type="password" placeholder="password" />
-				<input type="" name="">
-				<button>create</button>
-				<p class="message">Already registered?<a href="#">Sign In</a></p>
-			</form>
-			<form class="login-form" action="">
-				<input type="text" placeholder="email address" />
-				<input type="text" placeholder="password" />
-				<button>login</button>
-				<p class="message">Not registered?<a href="#">Let me help!</a></p>
-			</form>
-		</div>
-	</div>
-	<script type="text/javascript" src="{% static 'coglearn/js/index.js' %}"></script>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="login-page">
+<div class="form">
+	<form method='POST' action='login/' enctype="multipart/form-data" class="login-form">{% csrf_token %}
+		<!-- <input type="text" placeholder="email address" />
+		<input type="text" placeholder="password" /> -->
+		{{form}}
+		<button>login</button>
+		<p class="message">Not registered?<a href="#">Let me help!</a></p>
+	</form>
+	<form method='POST' action='' enctype="multipart/form-data" class="register-form">{% csrf_token %}
+		<!-- <input type="text" placeholder="username" />
+		<input type="password" placeholder="password" />
+		<input type="text" placeholder="email address" /> -->
+		{{form}}
+		<button>create</button>
+		<p class="message">Already registered?<a href="#">Sign In</a></p>
+	</form>
+	
+</div>
+</div>
+{% endblock %}
+{% block script %}
+<script type="text/javascript" src="{% static 'coglearn/js/index.js' %}"></script>
+{% endblock %}
