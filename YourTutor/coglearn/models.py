@@ -9,10 +9,6 @@ class Student(models.Model):
     firstName = models.CharField(max_length = 50)
     lastName = models.CharField(max_length = 50)
     email = models.EmailField()
-    progress = models.OneToOneField(
-        Progress, 
-        on_delete=models.CASCADE
-    )
     school = models.CharField(max_length = 100)
 
 class Teacher(models.Model):

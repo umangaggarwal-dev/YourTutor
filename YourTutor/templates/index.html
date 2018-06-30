@@ -4,19 +4,22 @@
 {% block content %}
 <div class="login-page">
 <div class="form">
-	<form class="register-form" action="">
-		<input type="text" placeholder="username" />
-		<input type="password" placeholder="password" />
-		<input type="text" placeholder="email address" />
-		<button>create</button>
-		<p class="message">Already registered?<a href="#">Sign In</a></p>
-	</form>
-	<form class="login-form" action="">
-		<input type="text" placeholder="email address" />
-		<input type="text" placeholder="password" />
+	<form method='POST' action='login/' enctype="multipart/form-data" class="login-form">{% csrf_token %}
+		<!-- <input type="text" placeholder="email address" />
+		<input type="text" placeholder="password" /> -->
+		{{form}}
 		<button>login</button>
 		<p class="message">Not registered?<a href="#">Let me help!</a></p>
 	</form>
+	<form method='POST' action='' enctype="multipart/form-data" class="register-form">{% csrf_token %}
+		<!-- <input type="text" placeholder="username" />
+		<input type="password" placeholder="password" />
+		<input type="text" placeholder="email address" /> -->
+		{{form}}
+		<button>create</button>
+		<p class="message">Already registered?<a href="#">Sign In</a></p>
+	</form>
+	
 </div>
 </div>
 {% endblock %}

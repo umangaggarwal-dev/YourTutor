@@ -4,35 +4,32 @@ from django.shortcuts import render
 from django.contrib.auth import login,authenticate,logout,update_session_auth_hash
 from django.contrib.auth.decorators import login_required
 from .models import Student
-from .forms import StudentForm
+from .forms import UserForm
 
-def index(request):
-    return render (request, 'index.html')
 
 def dashboard(request):
 	return render(request,'dashboard.html')
 
 
-def signup(request):
-
+def index(request):
     registered=False
-    if request.method =='POST':
-        user_form=UserForm(request.POST or None)
-        profile_form=Student(request.POST or None,request.FILES)
+    try:
+        user=request.user
+        username=UserProfile.objects.get(user=user)
+        registered=True
+    except:
+        pass
+    if request.method =='POST' and not registered:
+        form=UserForm(request.POST or None)
 
-        if user_form.is_valid() and profile_form.is_valid():
-            user=user_form.save()
-            user.set_password(user_form.cleaned_data.get('password'))
-            username=user_form.cleaned_data.get('username')
+        if form.is_valid():
+            user=form.save()
+            user.set_password(form.cleaned_data.get('password'))
+            username=form.cleaned_data.get('username')
             user.save()
-            profile = profile_form.save(commit=False)
-            profile.user = user
-            profile.save()
            # Update our variable to tell the template registration was successful.
             registered=True
             login(request,user)
     else:
-        user_form=UserForm()
-        profile_form=StudentForm()
-
-    return render(request,'signup.html',{'user_form':user_form,'profile_form':profile_form,'registered':registered})
+        form=UserForm()
+    return render(request,'index.html',{'form':form})
