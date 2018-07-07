@@ -20,13 +20,23 @@ class Teacher(models.Model):
 class Topic(MPTTModel):
     title = models.CharField(max_length=100)
     parent = TreeForeignKey('self', null=True, blank=True, related_name='children')
-
+    def __str__(self):
+        return self.title
 
 class SubTopic(models.Model):
     title = models.CharField(max_length = 100)
-    file = models.TextField() # url of the file or content
+    file = models.TextField(blank=True, null=True) # url of the file or content
     #how to link this url with urls.py??
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+    def __str__(self):
+        return self.title
+
+
+class AssessmentNode(MPTTModel):
+    lock = models.BooleanField(default=False)
+    leaf = models.BooleanField(default=False)
+    parent = TreeForeignKey('self', null = True, blank = True, related_name = 'children')
+    weight = models.PositiveIntegerField(null=True, blank=True)
 
 
 class Progress(models.Model):
@@ -35,8 +45,11 @@ class Progress(models.Model):
         Student,
         on_delete = models.CASCADE
     )
+    root = models.ForeignKey(AssessmentNode, on_delete=models.CASCADE)
     #learningGraph 
     #topic
     #subtopic
     #scoreInCurrentTopic
     #overallScore
+
+
