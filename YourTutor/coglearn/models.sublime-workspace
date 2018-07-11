@@ -1,0 +1,936 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Po",
+				"PostAdmin"
+			],
+			[
+				"Mptt",
+				"MPTTModel"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"C",
+				"CASCADE"
+			],
+			[
+				"one",
+				"on_delete"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"find",
+				"findFirst"
+			],
+			[
+				"num",
+				"numProd"
+			],
+			[
+				"som",
+				"someChunk"
+			],
+			[
+				"data",
+				"datasize"
+			],
+			[
+				"n",
+				"nChunks"
+			],
+			[
+				"chun",
+				"chunkSize"
+			],
+			[
+				"top",
+				"topIndex"
+			],
+			[
+				"prec",
+				"precedenceTable"
+			],
+			[
+				"input",
+				"inputString"
+			],
+			[
+				"get",
+				"getFirst"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"each",
+				"eachTerminal"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"icn",
+				"include"
+			],
+			[
+				"inp",
+				"input1"
+			],
+			[
+				"temp",
+				"tempNfa"
+			],
+			[
+				"N",
+				"Nfa"
+			],
+			[
+				"op",
+				"OPERATORS"
+			],
+			[
+				"in",
+				"input_string"
+			],
+			[
+				"re",
+				"regex"
+			],
+			[
+				"dle",
+				"delete"
+			],
+			[
+				"c",
+				"countStates"
+			],
+			[
+				"reg",
+				"regToNfa"
+			],
+			[
+				"com",
+				"complexNumber"
+			],
+			[
+				"ima",
+				"imaginary"
+			],
+			[
+				"real",
+				"real1"
+			],
+			[
+				"__s",
+				"__str__"
+			],
+			[
+				"Com",
+				"Component"
+			],
+			[
+				"Comp",
+				"component"
+			],
+			[
+				"set",
+				"setFill"
+			],
+			[
+				"Point",
+				"POINT1"
+			],
+			[
+				"fal",
+				"flag"
+			],
+			[
+				"g",
+				"getAdjacent"
+			],
+			[
+				"button",
+				"buttonColor"
+			],
+			[
+				"color",
+				"ColorPicker"
+			],
+			[
+				"point",
+				"POINT1"
+			],
+			[
+				"ponit",
+				"POINT"
+			],
+			[
+				"poni",
+				"POINT1"
+			],
+			[
+				"PO",
+				"POINT1"
+			],
+			[
+				"P",
+				"POINT1"
+			],
+			[
+				"w",
+				"wx2"
+			],
+			[
+				"wy",
+				"wy1"
+			],
+			[
+				"ab1",
+				"abrl1"
+			],
+			[
+				"ab",
+				"abrl2"
+			],
+			[
+				"a",
+				"abrl2"
+			],
+			[
+				"wx",
+				"wx1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"canvas",
+				"canvasCount"
+			],
+			[
+				"canv",
+				"canvasCount"
+			],
+			[
+				"new",
+				"newCanvas"
+			],
+			[
+				"can",
+				"canvasBoard"
+			],
+			[
+				"de",
+				"destinationCanvas"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"cur",
+				"curved1"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"drag",
+				"draggable"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"b",
+				"bgcolor\tAttr"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"onc",
+				"onchange\tAttr"
+			],
+			[
+				"canva",
+				"canvas"
+			],
+			[
+				"chec",
+				"checkFull"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"compu",
+				"computer_wins"
+			],
+			[
+				"user",
+				"userPaths"
+			],
+			[
+				"use",
+				"userPaths"
+			],
+			[
+				"comp",
+				"computer_wins"
+			],
+			[
+				"comu",
+				"computerPaths"
+			],
+			[
+				"max",
+				"maxval"
+			],
+			[
+				"prin",
+				"print_s"
+			],
+			[
+				"play_",
+				"play_bob"
+			],
+			[
+				"write",
+				"writer"
+			],
+			[
+				"O",
+				"OKGREEN"
+			],
+			[
+				"F",
+				"FAIL"
+			],
+			[
+				"Fi",
+				"finalList"
+			],
+			[
+				"final",
+				"finalList"
+			],
+			[
+				"fia",
+				"final"
+			],
+			[
+				"e",
+				"ENDC"
+			],
+			[
+				"Co",
+				"COST"
+			],
+			[
+				"cost",
+				"COST"
+			],
+			[
+				"BL",
+				"BLOCK"
+			],
+			[
+				"B",
+				"BLOCK"
+			],
+			[
+				"BLO",
+				"BLOCK_COST"
+			],
+			[
+				"De",
+				"DEST_J"
+			],
+			[
+				"D",
+				"DEST_J"
+			],
+			[
+				"ma",
+				"max_depth"
+			],
+			[
+				"v",
+				"vertex"
+			],
+			[
+				"cout",
+				"cout"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"pai",
+				"Pair"
+			],
+			[
+				"copy",
+				"copyArr"
+			],
+			[
+				"cop",
+				"copyArr"
+			],
+			[
+				"sol",
+				"solution"
+			],
+			[
+				"cu",
+				"currentState"
+			],
+			[
+				"m",
+				"movegen"
+			],
+			[
+				"s",
+				"show"
+			],
+			[
+				"pr",
+				"problemNode"
+			],
+			[
+				"mka",
+				"makeNodes"
+			],
+			[
+				"mak",
+				"makeParent"
+			],
+			[
+				"make",
+				"makeChild"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"ol",
+				"olympic_points_df"
+			],
+			[
+				"avg",
+				"avg_medal_count"
+			],
+			[
+				"their",
+				"theirVideo"
+			],
+			[
+				"we",
+				"webkitRTCPeerConnection"
+			],
+			[
+				"thei",
+				"theirConnection"
+			],
+			[
+				"ur",
+				"urConnection"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"ond",
+				"ondrag\tAttr"
+			],
+			[
+				"post",
+				"postData"
+			],
+			[
+				"on",
+				"onSubmitHandler"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"A",
+				"AppRoutes"
+			],
+			[
+				"rea",
+				"react-dom"
+			],
+			[
+				"render",
+				"renderProps"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ba",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package",
+			"Package Control",
+			"install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/umang/data_science/local/lib/python2.7/site-packages/django_markdown/urls.py",
+		"/home/umang/Django File Sharing/Prototype/file_share/urls.py",
+		"/home/umang/Django File Sharing/Prototype/file_share/views.py",
+		"/home/umang/Django File Sharing/Prototype/file_share/models.py",
+		"/home/umang/YourTutor/YourTutor/YourTutor/urls.py",
+		"/home/umang/data_science/blog/blog/urls.py",
+		"/home/umang/YourTutor/YourTutor/coglearn/admin.py",
+		"/home/umang/insights/src/client/main.js",
+		"/home/umang/insights/src/client/App.jsx",
+		"/home/umang/insights/public/index.html",
+		"/home/umang/insights/webpack.config.js",
+		"/home/umang/insights/src/server/app.js",
+		"/home/umang/themirror/webpack.config.js",
+		"/home/umang/themirror/public/index.html",
+		"/home/umang/insights/src/client/index.html",
+		"/home/umang/YourTutor/YourTutor/templates/index.html",
+		"/home/umang/Django File Sharing/Prototype/file_share/templates/file_share/signup.html",
+		"/home/umang/Django File Sharing/Prototype/file_share/forms.py",
+		"/home/umang/YourTutor/YourTutor/coglearn/forms.py",
+		"/home/umang/jupyter-bolg/requirements.txt",
+		"/home/umang/insights/src/App.js",
+		"/home/umang/insights/src/Welcome.js",
+		"/home/umang/insights/src/index.js",
+		"/home/umang/insights/src/Page.js",
+		"/home/umang/insights/src/Article.js",
+		"/media/umang/New Volume/insights/pages/index.js",
+		"/home/umang/YourTutor/YourTutor/template/index.html",
+		"/home/umang/YourTutor/YourTutor/template/index.css",
+		"/home/umang/YourTutor/YourTutor/template/index.js",
+		"/media/umang/New Volume/coglearn/app.js",
+		"/home/umang/Desktop/firstNfollow.py",
+		"/media/umang/PInterest/LexicalAnalyzer/ll1parser.py",
+		"/media/umang/New Volume/Untitled Folder/checksum.cpp",
+		"/media/umang/PInterest/LexicalAnalyzer/lr_parser.py",
+		"/media/umang/PInterest/LexicalAnalyzer/operatorPrecedenceParser.py",
+		"/home/umang/Documents/inflation.py",
+		"/home/umang/stopNWait.cpp",
+		"/media/umang/New Volume/dvr.cpp",
+		"/home/umang/distanceVector.cpp",
+		"/media/umang/New Volume/Untitled Folder/hammingDistance.cpp",
+		"/media/umang/New Volume/Untitled Folder/left_rec.c",
+		"/media/umang/New Volume/Untitled Folder/nfa_new.cpp",
+		"/media/umang/New Volume/Untitled Folder/nfa.cpp",
+		"/media/umang/New Volume/Untitled Folder/re2nfa.c",
+		"/media/umang/New Volume/Untitled Folder/lexical.c",
+		"/media/umang/New Volume/Untitled Folder/rec_descent.c",
+		"/media/umang/New Volume/Untitled Folder/lexical.cpp",
+		"/home/umang/input.txt",
+		"/home/umang/output.txt",
+		"/media/umang/PInterest/LexicalAnalyzer/nfa/regTonfa.py",
+		"/home/umang/infix2post.py",
+		"/media/umang/New Volume/Untitled Folder/first.cpp",
+		"/media/umang/New Volume/Untitled Folder/lexical.l",
+		"/media/umang/PInterest/LexicalAnalyzer/nfa/new.py",
+		"/media/umang/PInterest/DataAna/infy.py",
+		"/media/umang/PInterest/LexicalAnalyzer/nfa/nfa2dfa.py",
+		"/media/umang/PInterest/LexicalAnalyzer/nfa/nfa2dfa.cpp",
+		"/home/umang/Documents/reg.c",
+		"/home/umang/Documents/reg.cpp",
+		"/etc/postgresql/9.5/main/postgresql.conf",
+		"/etc/postgresql/9.5/main/pg_hba.conf",
+		"/home/umang/Desktop/paraskaprogram.py",
+		"/media/umang/PInterest/DataAna/oil_vs_cpi.py",
+		"/home/umang/temp.c",
+		"/home/umang/temp.cpp",
+		"/home/umang/themirror2/index.html",
+		"/home/umang/themirror2/main.js",
+		"/home/umang/themirror2/server.js",
+		"/home/umang/themirror2/package.json",
+		"/home/umang/themirror2/App.jsx",
+		"/home/umang/themirror2/webpack.config.js",
+		"/home/umang/Desktop/pythonist1.py",
+		"/home/umang/Desktop/pythonist2.py",
+		"/home/umang/themirror2/index.js",
+		"/home/umang/themirror/server.js",
+		"/home/umang/themirror/src/client/client.js",
+		"/home/umang/themirror/src/components/component.jsx",
+		"/home/umang/finalPrac.py",
+		"/media/umang/New Volume/alphaBeta.py",
+		"/media/umang/finalprac.py",
+		"/media/umang/New Volume/cg/reference.py",
+		"/media/umang/New Volume/cg/2dtrans.py",
+		"/media/umang/New Volume/cg/sheering.py",
+		"/media/umang/New Volume/cg/lineClipping.py",
+		"/media/umang/New Volume/cg/bld.py",
+		"/media/umang/New Volume/cg/midpointcircle.py",
+		"/media/umang/New Volume/cg/pointclipping.py",
+		"/media/umang/New Volume/cg/dda.py",
+		"/home/umang/reference.py",
+		"/home/umang/sheering.py",
+		"/home/umang/2dtrans.py",
+		"/media/umang/New Volume/minimax.py",
+		"/media/umang/New Volume/nqueens.cpp",
+		"/home/umang/astar.py",
+		"/home/umang/hill.py",
+		"/home/umang/dfs.py",
+		"/home/umang/bst.py",
+		"/home/umang/iddfs.py",
+		"/home/umang/iddfs.cpp",
+		"/home/umang/hill2.py",
+		"/home/umang/hill.cpp",
+		"/media/umang/New Volume/cg/blg_extended.py",
+		"/home/umang/mysess.py",
+		"/media/umang/New Volume/CanvasProj/canvas2/index.js",
+		"/media/umang/New Volume/CanvasProj/canvas2/index.html",
+		"/media/umang/New Volume/CanvasProj/canvas2/draggableText.js",
+		"/media/umang/New Volume/CanvasProj/canvas2/curvedText.js",
+		"/media/umang/New Volume/CanvasProj/canvas2/jcanvas.js",
+		"/home/umang/pointclipping.py",
+		"/home/umang/lineClipping.py",
+		"/home/umang/midpointellipse.py",
+		"/home/umang/midpointcircle.py",
+		"/home/umang/bld.py",
+		"/home/umang/dda.py",
+		"/media/umang/New Volume/nKnights.py",
+		"/media/umang/New Volume/CanvasProj/Canvas/canvas.js",
+		"/media/umang/New Volume/CanvasProj/Canvas/canvas.html",
+		"/media/umang/New Volume/CanvasProj/canvas2/index.css",
+		"/home/umang/exp.html",
+		"/media/umang/New Volume/CanvasProj/canvas2/canvas.html",
+		"/media/umang/New Volume/canvas2/canvas.css",
+		"/media/umang/New Volume/canvas2/index.css",
+		"/media/umang/New Volume/canvas2/canvas.html",
+		"/media/umang/New Volume/canvas2/index.html",
+		"/media/umang/New Volume/Canvas/canvas.js",
+		"/media/umang/New Volume/Softzzz/JS/SceneGraph.js-master/examples/00_Class/index.html",
+		"/media/umang/New Volume/Canvas/exp.html",
+		"/media/umang/New Volume/Canvas/canvas.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"development",
+			";",
+			"root",
+			"receiverSum",
+			"senderSum",
+			"gets",
+			"cin",
+			"no",
+			"element.type.toLowerCase",
+			"topCanvas",
+			"LINE",
+			"xr",
+			"xl",
+			"yr",
+			"yl",
+			"SIZE",
+			"4",
+			"cs",
+			"if GRID[x][y] != BLOCK or GRID[x][y] != BOT:",
+			"if GRID[x][y] != BLOCK:",
+			"y = y",
+			"arr.append([x,y,cost[x,y]])",
+			"grid",
+			"0",
+			"gird",
+			"]",
+			"[",
+			"DEEPCOPY",
+			"Umang",
+			"9999",
+			"makeNode(copy)",
+			"makeNode(currentNode, copy)",
+			"problem",
+			"temp < h",
+			"temp > h",
+			"final = copy",
+			"copy = current",
+			"getHeuristic",
+			";",
+			"//",
+			"clientFrameWindow",
+			"Express",
+			"box",
+			"row",
+			"box",
+			"row",
+			"uplo",
+			"script",
+			"Downloads",
+			"()\n",
+			"output",
+			"click",
+			"fadeout",
+			"opacity",
+			"ng",
+			"cloa",
+			"clo",
+			"main",
+			"coffeeview",
+			"\" ",
+			"data",
+			"fileData",
+			"upload()",
+			"']\n",
+			"get_children",
+			"clean",
+			"clean_data\n",
+			"#\n",
+			"#9e9e9e",
+			"150px",
+			" width=\"100px\"",
+			"230",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rootNT",
+			"sum",
+			"fgets",
+			"complexNumber",
+			"temp",
+			"Line",
+			"xmax",
+			"xmin",
+			"ymax",
+			"ymin",
+			"size",
+			"topCanvas",
+			"if GRID[x][y] != BLOCK and GRID[x][y] != BOT:",
+			"if GRID[x][y] != BLOCK or GRID[x][y] != BOT:",
+			"y = j",
+			"arr.append([x,y,g+h])",
+			"arr.append([x,y,COST[x,y]])",
+			"GRID",
+			"CLEAR",
+			"grid",
+			"}",
+			"{",
+			"deepcopy",
+			"0",
+			"makeNode(arr, copy)",
+			"makeNode(copy)",
+			"temp <= h",
+			"temp < h",
+			"final = deepcopy(copy)",
+			"copy = deepcopy(current)",
+			"getheuristic",
+			"",
+			"#",
+			"express",
+			"mybox",
+			"myrow",
+			"fill",
+			"height",
+			"cleaned_data",
+			"Gray",
+			"200px",
+			"",
+			"100"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "models.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

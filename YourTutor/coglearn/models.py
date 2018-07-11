@@ -20,6 +20,7 @@ class Teacher(models.Model):
 class Topic(MPTTModel):
     title = models.CharField(max_length=100)
     parent = TreeForeignKey('self', null=True, blank=True, related_name='children')
+    numberOfStudents = models.PositiveIntegerField(default=0)
     def __str__(self):
         return self.title
 
@@ -32,11 +33,18 @@ class SubTopic(models.Model):
         return self.title
 
 
-class AssessmentNode(MPTTModel):
+class ScoreNode(MPTTModel):
     lock = models.BooleanField(default=False)
     leaf = models.BooleanField(default=False)
+    topic = models.ForeignKey(Topic, models.CASCADE=True)
+    subtopic = models.ForeignKey(Topic)
     parent = TreeForeignKey('self', null = True, blank = True, related_name = 'children')
+    staticThreshold = models.PositiveIntegerField(balnk=True)
     weight = models.PositiveIntegerField(null=True, blank=True)
+
+
+class dynamicThreshold():
+    
 
 
 class Progress(models.Model):
@@ -45,11 +53,14 @@ class Progress(models.Model):
         Student,
         on_delete = models.CASCADE
     )
-    root = models.ForeignKey(AssessmentNode, on_delete=models.CASCADE)
+    root = models.ForeignKey(ScoreNode, on_delete=models.CASCADE)
     #learningGraph 
     #topic
     #subtopic
     #scoreInCurrentTopic
     #overallScore
 
+
+class Question(models.Model):
+    pass
 

@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block content %}
+<div class = "dashboard">
+	{% for topic in topics %}
+	<div class="topic" id={{topic.id}}>
+		<div class="title">
+			<a href="#">{{ topic }}</a>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}
