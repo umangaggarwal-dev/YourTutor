@@ -3,6 +3,7 @@ from django.db import models
 from mptt.fields import TreeForeignKey
 from mptt.models import MPTTModel
 import os
+import datetime
 
 class Student(models.Model):
     firstName = models.CharField(max_length = 50)
@@ -39,12 +40,16 @@ class ScoreNode(MPTTModel):
     topic = models.ForeignKey(Topic, models.CASCADE=True)
     subtopic = models.ForeignKey(Topic)
     parent = TreeForeignKey('self', null = True, blank = True, related_name = 'children')
-    staticThreshold = models.PositiveIntegerField(balnk=True)
+    staticThreshold = models.PositiveIntegerField(blank=True, null=True)
+    score = models.PositiveIntegerField(null=True, blank=True)
     weight = models.PositiveIntegerField(null=True, blank=True)
+    lastTestAttempt = models.DateField(auto_now = False, auto_now_add = False)
+    attemptsLeft = models.PositiveIntegerField(default=3)
 
 
 class dynamicThreshold():
-    
+    topic = models.ForeignKey(Topic)
+    subTopic = models.ForeignKey(SubTopic)
 
 
 class Progress(models.Model):
