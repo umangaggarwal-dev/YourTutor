@@ -34,16 +34,19 @@ class SubTopic(models.Model):
 
 
 class ScoreNode(MPTTModel):
-    lock = models.BooleanField(default=False)
+    locked = models.BooleanField(default=False)
     leaf = models.BooleanField(default=False)
     topic = models.ForeignKey(Topic, models.CASCADE=True)
     subtopic = models.ForeignKey(Topic)
     parent = TreeForeignKey('self', null = True, blank = True, related_name = 'children')
-    staticThreshold = models.PositiveIntegerField(balnk=True)
+    staticThreshold = models.PositiveIntegerField(blank=True)
     weight = models.PositiveIntegerField(null=True, blank=True)
+    score = models.PositiveIntegerField(null=True, blank=True)
+    attempts = models.PositiveIntegerField(null=True, blank=True)
 
-
-class dynamicThreshold():
+class dynamicThreshold(models.Model):
+    title = models.CharField(max_length=100)
+    score = models.PositiveIntegerField(null=True, blank=True)
     
 
 
