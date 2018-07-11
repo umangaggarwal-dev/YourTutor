@@ -35,7 +35,7 @@ class SubTopic(models.Model):
 
 
 class ScoreNode(MPTTModel):
-    lock = models.BooleanField(default=False)
+    locked = models.BooleanField(default=False)
     leaf = models.BooleanField(default=False)
     topic = models.ForeignKey(Topic, models.CASCADE=True)
     subtopic = models.ForeignKey(Topic)
@@ -46,11 +46,9 @@ class ScoreNode(MPTTModel):
     lastTestAttempt = models.DateField(auto_now = False, auto_now_add = False)
     attemptsLeft = models.PositiveIntegerField(default=3)
 
-
-class dynamicThreshold():
-    topic = models.ForeignKey(Topic)
-    subTopic = models.ForeignKey(SubTopic)
-
+class dynamicThreshold(models.Model):
+    title = models.CharField(max_length=100)
+    score = models.PositiveIntegerField(null=True, blank=True)
 
 class Progress(models.Model):
     #Everything we need to model the learning progress
